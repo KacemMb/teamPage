@@ -1,0 +1,49 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    position: fixed;
+    width: 100%;
+}
+.Navbar h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    
+}
+.navigation ul li{
+    margin: 0 15px;
+}
+.Options{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Options:hover{
+    color: #ffffff;
+    background-color: #007bff ;
+    
+}
+
+.LoginLink{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.LoginLink:hover{
+    color: #ffffff;
+    background-color: #007bff ;
+    
+}
